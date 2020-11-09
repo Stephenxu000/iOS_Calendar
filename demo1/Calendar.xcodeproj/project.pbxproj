@@ -15,6 +15,9 @@
 		D23D7D24254D875B00939FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23D7D22254D875B00939FFF /* LaunchScreen.storyboard */; };
 		D23D7D2F254D875B00939FFF /* demo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D7D2E254D875B00939FFF /* demo1Tests.swift */; };
 		D23D7D3A254D875B00939FFF /* demo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D7D39254D875B00939FFF /* demo1UITests.swift */; };
+		D2C669012558D7D700F4DE8B /* TodolistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C669002558D7D700F4DE8B /* TodolistViewController.swift */; };
+		D2C669062558DFBF00F4DE8B /* TodolistEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C669052558DFBF00F4DE8B /* TodolistEntryViewController.swift */; };
+		D2C6690B2558DFDD00F4DE8B /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6690A2558DFDD00F4DE8B /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D23D7D35254D875B00939FFF /* CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23D7D39254D875B00939FFF /* demo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo1UITests.swift; sourceTree = "<group>"; };
 		D23D7D3B254D875B00939FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C669002558D7D700F4DE8B /* TodolistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistViewController.swift; sourceTree = "<group>"; };
+		D2C669052558DFBF00F4DE8B /* TodolistEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistEntryViewController.swift; sourceTree = "<group>"; };
+		D2C6690A2558DFDD00F4DE8B /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				D23D7D19254D875900939FFF /* SceneDelegate.swift */,
 				D23D7D1B254D875900939FFF /* ViewController.swift */,
 				D23D7D1D254D875900939FFF /* Main.storyboard */,
+				D2C669052558DFBF00F4DE8B /* TodolistEntryViewController.swift */,
+				D2C6690A2558DFDD00F4DE8B /* TaskViewController.swift */,
+				D2C669002558D7D700F4DE8B /* TodolistViewController.swift */,
 				D23D7D20254D875B00939FFF /* Assets.xcassets */,
 				D23D7D22254D875B00939FFF /* LaunchScreen.storyboard */,
 				D23D7D25254D875B00939FFF /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C669012558D7D700F4DE8B /* TodolistViewController.swift in Sources */,
 				D23D7D1C254D875900939FFF /* ViewController.swift in Sources */,
+				D2C669062558DFBF00F4DE8B /* TodolistEntryViewController.swift in Sources */,
 				D23D7D18254D875900939FFF /* AppDelegate.swift in Sources */,
 				D23D7D1A254D875900939FFF /* SceneDelegate.swift in Sources */,
+				D2C6690B2558DFDD00F4DE8B /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
