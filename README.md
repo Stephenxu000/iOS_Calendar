@@ -27,7 +27,9 @@
 ### 2020.11.1
     1. 添加了日历主体，向产品经理说明了本产品的基本功能与受众目标
 
- <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%E4%B8%BB%E4%BD%93.jpg" alt="日历主题样式" width="150" height="150" />
+ <div align=center>
+ <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%E4%B8%BB%E4%BD%93.jpg" alt="日历主题样式" width="300" height="300" />
+ </div>
 
 ### 2020.11.9
     功能实现：
