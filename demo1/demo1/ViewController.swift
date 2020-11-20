@@ -6,8 +6,10 @@
 //
 
 import UIKit
-    var grade = "" //全局参数回传城市选单
-
+    //var grade = "" //全局参数回传城市选单
+enum Keys : String{
+    case cityname = "Changchun"
+}
     struct APIKeys {
         static let apikey = "0b9867b05e7f5e8d08e757f80de9d918" // 输入在OpenWeatherMap申请的API key
     }
@@ -17,7 +19,9 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         ChangeName.delegate = self
-        getWeatherData(getCityName: "Changchun")//预设一开始的城市为长春
+        let manager = UserDefaults()
+        let cityname: String? = manager.string(forKey: Keys.cityname.rawValue)
+        getWeatherData(getCityName: cityname ?? "Changchun")//预设一开始的城市为长春
         // 设置当前时间
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (_) in
             let now = Date()
@@ -86,6 +90,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         if ChangeName.text! == "Changchun" {
             getWeatherData(getCityName: "Changchun")
         } else {
+            let manager = UserDefaults()
+            manager.setValue(ChangeName.text!, forKey: Keys.cityname.rawValue)
             getWeatherData(getCityName: ChangeName.text!)
         }
     }
@@ -157,7 +163,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         return 0
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = collectionView.frame.width / 7
+        let width = collectionView.frame.width / 7.25
         return CGSize(width: width, height: 50)
     }
     //横版自动排版

@@ -16,6 +16,7 @@
 		D23D7D2F254D875B00939FFF /* demo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D7D2E254D875B00939FFF /* demo1Tests.swift */; };
 		D23D7D3A254D875B00939FFF /* demo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23D7D39254D875B00939FFF /* demo1UITests.swift */; };
 		D24A55E22563DE4E002063E0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A55E12563DE4E002063E0 /* WeatherData.swift */; };
+		D24A55EA2564185E002063E0 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = D24A55E92564185E002063E0 /* icons */; };
 		D2C669012558D7D700F4DE8B /* TodolistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C669002558D7D700F4DE8B /* TodolistViewController.swift */; };
 		D2C669062558DFBF00F4DE8B /* TodolistEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C669052558DFBF00F4DE8B /* TodolistEntryViewController.swift */; };
 		D2C6690B2558DFDD00F4DE8B /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6690A2558DFDD00F4DE8B /* TaskViewController.swift */; };
@@ -54,6 +55,7 @@
 		D23D7D39254D875B00939FFF /* demo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo1UITests.swift; sourceTree = "<group>"; };
 		D23D7D3B254D875B00939FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24A55E12563DE4E002063E0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		D24A55E92564185E002063E0 /* icons */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icons; sourceTree = SOURCE_ROOT; };
 		D2C669002558D7D700F4DE8B /* TodolistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistViewController.swift; sourceTree = "<group>"; };
 		D2C669052558DFBF00F4DE8B /* TodolistEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistEntryViewController.swift; sourceTree = "<group>"; };
 		D2C6690A2558DFDD00F4DE8B /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				D2C6690A2558DFDD00F4DE8B /* TaskViewController.swift */,
 				D2C669002558D7D700F4DE8B /* TodolistViewController.swift */,
 				D23D7D20254D875B00939FFF /* Assets.xcassets */,
+				D24A55E92564185E002063E0 /* icons */,
 				D23D7D22254D875B00939FFF /* LaunchScreen.storyboard */,
 				D23D7D25254D875B00939FFF /* Info.plist */,
 			);
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23D7D24254D875B00939FFF /* LaunchScreen.storyboard in Resources */,
+				D24A55EA2564185E002063E0 /* icons in Resources */,
 				D23D7D21254D875B00939FFF /* Assets.xcassets in Resources */,
 				D23D7D1F254D875900939FFF /* Main.storyboard in Resources */,
 			);
@@ -453,8 +457,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9K5L27HYQ;
+				DEVELOPMENT_TEAM = 4A857N444U;
 				INFOPLIST_FILE = demo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,8 +477,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9K5L27HYQ;
+				DEVELOPMENT_TEAM = 4A857N444U;
 				INFOPLIST_FILE = demo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
