@@ -71,7 +71,7 @@
         2.实现了三个功能页面的过渡与切换。
 
  <div align=center>
- <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="400" height="850" />
+ <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="300" height="630" />
  </div>
 
     优化方向：
@@ -111,7 +111,7 @@
 ### 3.2 首页
 
  <div align=center>
- <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="400" height="850" />
+ <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="300" height="630" />
  </div>
 
     将日历于天气合二为一，放置在进入app的系统界面，使用户在最短时间内直观看到日期状况。
