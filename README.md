@@ -41,7 +41,7 @@
     特点是工作学习业务较为繁重。
     在每日上班前需要便捷的方式同时查看本日天气和需要做的工作。
     平日工作学习时，也需要快速记录需要做的工作。
-    在出差时，有查看当地那天气的需求。
+    在出差时，有查看当地天气的需求。
 
 ##### 2.老年群体
 
@@ -71,7 +71,7 @@
         2.实现了三个功能页面的过渡与切换。
 
  <div align=center>
- <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="400" height="850" />
+ <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="300" height="630" />
  </div>
 
     优化方向：
@@ -111,7 +111,7 @@
 ### 3.2 首页
 
  <div align=center>
- <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="400" height="850" />
+ <img src="https://github.com/Stephenxu000/JLU_HTML5_Groupwork/blob/main/picture/%E6%97%A5%E5%8E%86%2B%E5%A4%A9%E6%B0%94%E5%8A%9F%E8%83%BD.jpg" alt="日历+天气功能" width="300" height="630" />
  </div>
 
     将日历于天气合二为一，放置在进入app的系统界面，使用户在最短时间内直观看到日期状况。
@@ -137,5 +137,6 @@
     点击右上方add按钮即可进入备忘录编辑页面进行事项编写，再点击页面下放save健即可进行保存。
 
 #### 3.3.1 备忘录
-  1.备忘录具有三个页面组成 分别是添加任务页面 显示任务页面 修改删除任务页面。
-  2.按钮即功能描述。
+
+    1.备忘录具有三个页面组成 分别是添加任务页面 显示任务页面 修改删除任务页面。
+    2.按钮即功能描述。
