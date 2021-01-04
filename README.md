@@ -1,5 +1,5 @@
 # JLU_HTML5_Groupwork
-## 2020年吉林大学HTML5课程第三组小组作业
+## 2020年吉林大学iOS程序设计开发与HTML移动开发作业（PS：两个课程我交了同样的作业）
     Our work will be submitted here!
     
 ## 1 产品简单说明    
